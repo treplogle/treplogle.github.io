@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Blinky Sphere</title>
+        <style type="text/css">
+            html {
+                background-color:black;
+            }
+            
+            canvas {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                width: 600px;
+            }
+            .buttons {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="buttons">
+            <button onclick="setWhite()">White</button> | <button onclick="setColor()">Color</button>
+        </div>
+
+        <canvas id="canvas" width="600" height="600"></canvas>
+        
+        <script src="perlin.js" type="text/javascript"></script>
+        <script src="jmath.js" type="text/javascript"></script>
+        <script src="main.js" type="text/javascript"></script>
+    </body>
+</html>
